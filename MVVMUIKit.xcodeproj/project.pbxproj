@@ -9,23 +9,38 @@
 /* Begin PBXBuildFile section */
 		60600BC32CC39E9300833A41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60600BC22CC39E9300833A41 /* AppDelegate.swift */; };
 		60600BC52CC39E9300833A41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60600BC42CC39E9300833A41 /* SceneDelegate.swift */; };
-		60600BC72CC39E9300833A41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60600BC62CC39E9300833A41 /* ViewController.swift */; };
 		60600BCA2CC39E9300833A41 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 60600BC92CC39E9300833A41 /* Base */; };
 		60600BCD2CC39E9300833A41 /* MVVMUIKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60600BCB2CC39E9300833A41 /* MVVMUIKit.xcdatamodeld */; };
 		60600BCF2CC39E9400833A41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60600BCE2CC39E9400833A41 /* Assets.xcassets */; };
 		60600BD22CC39E9400833A41 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 60600BD12CC39E9400833A41 /* Base */; };
+		60600BE52CC3A24000833A41 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60600BE42CC3A24000833A41 /* Product.swift */; };
+		60600BE72CC3A4CA00833A41 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60600BE62CC3A4CA00833A41 /* APIManager.swift */; };
+		60600BE92CC3BA8900833A41 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60600BE82CC3BA8900833A41 /* Constant.swift */; };
+		60600BEB2CC3D25100833A41 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60600BEA2CC3D25100833A41 /* ProductListViewController.swift */; };
+		60600BED2CC3D41D00833A41 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60600BEC2CC3D41D00833A41 /* ProductViewModel.swift */; };
+		60600BF02CC42BF400833A41 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60600BEF2CC42BF400833A41 /* ProductCell.xib */; };
+		60600BF12CC42BF400833A41 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60600BEE2CC42BF400833A41 /* ProductCell.swift */; };
+		60600BF42CC6353B00833A41 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 60600BF32CC6353B00833A41 /* Kingfisher */; };
+		60600BF62CC635E100833A41 /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60600BF52CC635E100833A41 /* UIImageView + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		60600BBF2CC39E9300833A41 /* MVVMUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60600BC22CC39E9300833A41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60600BC42CC39E9300833A41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		60600BC62CC39E9300833A41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		60600BC92CC39E9300833A41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60600BCC2CC39E9300833A41 /* MVVMUIKit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MVVMUIKit.xcdatamodel; sourceTree = "<group>"; };
 		60600BCE2CC39E9400833A41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60600BD12CC39E9400833A41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60600BD32CC39E9400833A41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60600BE42CC3A24000833A41 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		60600BE62CC3A4CA00833A41 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		60600BE82CC3BA8900833A41 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		60600BEA2CC3D25100833A41 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		60600BEC2CC3D41D00833A41 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		60600BEE2CC42BF400833A41 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		60600BEF2CC42BF400833A41 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		60600BF52CC635E100833A41 /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60600BF42CC6353B00833A41 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +74,119 @@
 		60600BC12CC39E9300833A41 /* MVVMUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				60600BC22CC39E9300833A41 /* AppDelegate.swift */,
-				60600BC42CC39E9300833A41 /* SceneDelegate.swift */,
-				60600BC62CC39E9300833A41 /* ViewController.swift */,
-				60600BC82CC39E9300833A41 /* Main.storyboard */,
-				60600BCE2CC39E9400833A41 /* Assets.xcassets */,
-				60600BD02CC39E9400833A41 /* LaunchScreen.storyboard */,
+				60600BDF2CC39F9D00833A41 /* Application */,
+				60600BDD2CC39F9700833A41 /* Constant */,
+				60600BDE2CC39F9A00833A41 /* Extensions */,
+				60600BDC2CC39F9400833A41 /* Helper */,
+				60600BDB2CC39F9100833A41 /* Screens */,
+				60600BDA2CC39F8E00833A41 /* Storyboard */,
+				60600BD92CC39F8A00833A41 /* Resources */,
 				60600BD32CC39E9400833A41 /* Info.plist */,
 				60600BCB2CC39E9300833A41 /* MVVMUIKit.xcdatamodeld */,
 			);
 			path = MVVMUIKit;
+			sourceTree = "<group>";
+		};
+		60600BD92CC39F8A00833A41 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60600BCE2CC39E9400833A41 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		60600BDA2CC39F8E00833A41 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				60600BC82CC39E9300833A41 /* Main.storyboard */,
+				60600BD02CC39E9400833A41 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		60600BDB2CC39F9100833A41 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				60600BE02CC3A11F00833A41 /* Product */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		60600BDC2CC39F9400833A41 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				60600BE62CC3A4CA00833A41 /* APIManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		60600BDD2CC39F9700833A41 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				60600BE82CC3BA8900833A41 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		60600BDE2CC39F9A00833A41 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				60600BF52CC635E100833A41 /* UIImageView + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		60600BDF2CC39F9D00833A41 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				60600BC22CC39E9300833A41 /* AppDelegate.swift */,
+				60600BC42CC39E9300833A41 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		60600BE02CC3A11F00833A41 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				60600BE32CC3A13000833A41 /* Model */,
+				60600BE22CC3A12D00833A41 /* View */,
+				60600BE12CC3A12900833A41 /* ViewModel */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		60600BE12CC3A12900833A41 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				60600BEC2CC3D41D00833A41 /* ProductViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		60600BE22CC3A12D00833A41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				60600BEE2CC42BF400833A41 /* ProductCell.swift */,
+				60600BEF2CC42BF400833A41 /* ProductCell.xib */,
+				60600BF72CC64B1200833A41 /* Controller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		60600BE32CC3A13000833A41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60600BE42CC3A24000833A41 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		60600BF72CC64B1200833A41 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				60600BEA2CC3D25100833A41 /* ProductListViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +205,9 @@
 			dependencies = (
 			);
 			name = MVVMUIKit;
+			packageProductDependencies = (
+				60600BF32CC6353B00833A41 /* Kingfisher */,
+			);
 			productName = MVVMUIKit;
 			productReference = 60600BBF2CC39E9300833A41 /* MVVMUIKit.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +236,9 @@
 				Base,
 			);
 			mainGroup = 60600BB62CC39E9200833A41;
+			packageReferences = (
+				60600BF22CC6353B00833A41 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 60600BC02CC39E9300833A41 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60600BCF2CC39E9400833A41 /* Assets.xcassets in Resources */,
+				60600BF02CC42BF400833A41 /* ProductCell.xib in Resources */,
 				60600BD22CC39E9400833A41 /* Base in Resources */,
 				60600BCA2CC39E9300833A41 /* Base in Resources */,
 			);
@@ -141,10 +267,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60600BC72CC39E9300833A41 /* ViewController.swift in Sources */,
 				60600BC32CC39E9300833A41 /* AppDelegate.swift in Sources */,
+				60600BE52CC3A24000833A41 /* Product.swift in Sources */,
+				60600BEB2CC3D25100833A41 /* ProductListViewController.swift in Sources */,
+				60600BE72CC3A4CA00833A41 /* APIManager.swift in Sources */,
+				60600BF62CC635E100833A41 /* UIImageView + Extension.swift in Sources */,
 				60600BCD2CC39E9300833A41 /* MVVMUIKit.xcdatamodeld in Sources */,
 				60600BC52CC39E9300833A41 /* SceneDelegate.swift in Sources */,
+				60600BF12CC42BF400833A41 /* ProductCell.swift in Sources */,
+				60600BED2CC3D41D00833A41 /* ProductViewModel.swift in Sources */,
+				60600BE92CC3BA8900833A41 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +497,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		60600BF22CC6353B00833A41 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		60600BF32CC6353B00833A41 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60600BF22CC6353B00833A41 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		60600BCB2CC39E9300833A41 /* MVVMUIKit.xcdatamodeld */ = {

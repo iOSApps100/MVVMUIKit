@@ -5,4 +5,8 @@
 //  Created by Vivek  Garg on 19/10/24.
 //
 
-import Foundation
+enum Constant {
+    enum API {
+        static let productURL = "https://fakestoreapi.com/products"
+    }
+}
