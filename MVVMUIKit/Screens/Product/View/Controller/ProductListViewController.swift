@@ -48,8 +48,6 @@ extension ProductListViewController {
             case .error(let error):
                 print(error)
             }
-            
-            
         }
     }
 }
@@ -67,6 +65,4 @@ extension ProductListViewController: UITableViewDataSource {
         cell.product = product
         return cell
     }
-    
-    
 }

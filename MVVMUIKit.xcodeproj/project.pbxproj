@@ -22,6 +22,7 @@
 		60600BF12CC42BF400833A41 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60600BEE2CC42BF400833A41 /* ProductCell.swift */; };
 		60600BF42CC6353B00833A41 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 60600BF32CC6353B00833A41 /* Kingfisher */; };
 		60600BF62CC635E100833A41 /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60600BF52CC635E100833A41 /* UIImageView + Extension.swift */; };
+		60600BFA2CC6BB5D00833A41 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60600BF92CC6BB5D00833A41 /* EndPointType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		60600BEE2CC42BF400833A41 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		60600BEF2CC42BF400833A41 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
 		60600BF52CC635E100833A41 /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
+		60600BF92CC6BB5D00833A41 /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		60600BB62CC39E9200833A41 = {
 			isa = PBXGroup;
 			children = (
+				60600BF82CC6BB3700833A41 /* Utility */,
 				60600BC12CC39E9300833A41 /* MVVMUIKit */,
 				60600BC02CC39E9300833A41 /* Products */,
 			);
@@ -189,6 +192,14 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		60600BF82CC6BB3700833A41 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				60600BF92CC6BB5D00833A41 /* EndPointType.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -272,6 +283,7 @@
 				60600BEB2CC3D25100833A41 /* ProductListViewController.swift in Sources */,
 				60600BE72CC3A4CA00833A41 /* APIManager.swift in Sources */,
 				60600BF62CC635E100833A41 /* UIImageView + Extension.swift in Sources */,
+				60600BFA2CC6BB5D00833A41 /* EndPointType.swift in Sources */,
 				60600BCD2CC39E9300833A41 /* MVVMUIKit.xcdatamodeld in Sources */,
 				60600BC52CC39E9300833A41 /* SceneDelegate.swift in Sources */,
 				60600BF12CC42BF400833A41 /* ProductCell.swift in Sources */,
