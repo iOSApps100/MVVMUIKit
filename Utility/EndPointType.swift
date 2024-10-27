@@ -17,23 +17,35 @@ protocol EndPointType {
     var baseURL: String {get}
     var url: URL? {get}
     var method: HTTPMethods {get}
+    var body: Encodable? {get}
+    var headers: [String: String]? {get}
 }
 
 // For each module we need to handle like this one
 enum EndPointItems {
     case products
+    case addProduct(product: AddProduct)
 }
 
 extension EndPointItems: EndPointType {
+    
+    
     var path: String {
         switch self {
         case .products:
             return "products"
+        case .addProduct:
+            return "products/add"
         }
     }
     
     var baseURL: String {
-        return "https://fakestoreapi.com/"
+        switch self {
+        case .products:
+            return "https://fakestoreapi.com/"
+        case .addProduct:
+            return "https://dummyjson.com/"
+        }
     }
     
     var url: URL? {
@@ -44,6 +56,21 @@ extension EndPointItems: EndPointType {
         switch self {
         case .products:
             return .get
+        case .addProduct:
+            return .post
         }
+    }
+    
+    var body: Encodable? {
+        switch self {
+        case .products: 
+            return nil
+        case .addProduct(let product):
+            return product
+        }
+    }
+    
+    var headers: [String : String]? {
+        return APIManager.commonHeaders
     }
 }

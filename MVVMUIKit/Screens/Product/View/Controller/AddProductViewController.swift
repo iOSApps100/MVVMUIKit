@@ -8,15 +8,15 @@
 import UIKit
 
 struct AddProduct: Codable {
-    
+    var id: Int? = nil
     let title: String
 }
 
-struct ProductResponse: Decodable {
-    
-    let id: Int
-    let title: String
-}
+//struct ProductResponse: Decodable {
+//    
+//    let id: Int
+//    let title: String
+//}
 
 class AddProductViewController: UIViewController {
 
@@ -45,7 +45,7 @@ class AddProductViewController: UIViewController {
             
             do {
                 // Data to Model convert
-                let productResponse = try JSONDecoder().decode(ProductResponse.self, from: data)
+                let productResponse = try JSONDecoder().decode(AddProduct.self, from: data)
                 print(productResponse)
             } catch {
                 print(error)
