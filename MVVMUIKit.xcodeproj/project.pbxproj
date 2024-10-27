@@ -23,6 +23,7 @@
 		60600BF42CC6353B00833A41 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 60600BF32CC6353B00833A41 /* Kingfisher */; };
 		60600BF62CC635E100833A41 /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60600BF52CC635E100833A41 /* UIImageView + Extension.swift */; };
 		60600BFA2CC6BB5D00833A41 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60600BF92CC6BB5D00833A41 /* EndPointType.swift */; };
+		60600C392CCBA2AB00833A41 /* AddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60600C382CCBA2AB00833A41 /* AddProductViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		60600BEF2CC42BF400833A41 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
 		60600BF52CC635E100833A41 /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
 		60600BF92CC6BB5D00833A41 /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		60600C382CCBA2AB00833A41 /* AddProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				60600BEA2CC3D25100833A41 /* ProductListViewController.swift */,
+				60600C382CCBA2AB00833A41 /* AddProductViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			files = (
 				60600BC32CC39E9300833A41 /* AppDelegate.swift in Sources */,
 				60600BE52CC3A24000833A41 /* Product.swift in Sources */,
+				60600C392CCBA2AB00833A41 /* AddProductViewController.swift in Sources */,
 				60600BEB2CC3D25100833A41 /* ProductListViewController.swift in Sources */,
 				60600BE72CC3A4CA00833A41 /* APIManager.swift in Sources */,
 				60600BF62CC635E100833A41 /* UIImageView + Extension.swift in Sources */,

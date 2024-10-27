@@ -23,7 +23,7 @@ protocol EndPointType {
 enum EndPointItems {
     case products
 }
-/// https://fakestoreapi.com/products
+
 extension EndPointItems: EndPointType {
     var path: String {
         switch self {
