@@ -19,6 +19,7 @@ protocol EndPointType {
     var method: HTTPMethods {get}
     var body: Encodable? {get}
     var headers: [String: String]? {get}
+    
 }
 
 // For each module we need to handle like this one
